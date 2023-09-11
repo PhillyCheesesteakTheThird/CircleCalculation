@@ -7,7 +7,7 @@ public class Main {
         System.out.println("What is the radius of your circle?");
         double radius = response.nextDouble();
 
-        System.out.print("The Diameter of your circle is: ");
+        System.out.println("The Diameter of your circle is: ");
         System.out.println(circleDiameter(radius));
         System.out.println("The Area of your circle is: ");
         System.out.println(circleArea(radius));
